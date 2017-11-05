@@ -9,5 +9,9 @@ public class Appliances extends Common.Driver
 	{
 		return driver.findElement(By.xpath("//a[@title='Appliances'"));
 	}
+	public static WebElement ClickOnTelevisions() 
+	{
+		return driver.findElement(By.xpath("//a[@title='Televisions'"));
+	}
 	
 }

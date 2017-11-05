@@ -97,6 +97,12 @@ public class Common extends Driver
 	{
 		Appliances.ClickOnAppliances().click();
 	}
+	public static void ClickOnTelevisions() 
+	{
+		Appliances.ClickOnTelevisions().click();
+	}
+	
+	
 	
 	
 }
