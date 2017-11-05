@@ -79,7 +79,7 @@ public class Common extends Driver
 	}
 	public static void ClickOnNewAndPopularModels() 
 	{
-		Electronics.ClickOnNewAndPopularModels().click();
+		Electronics.ClickOnNewAndPopularModels() .click();
 	}
 	public static void ClickOnMiMIX2() 
 	{
@@ -97,7 +97,6 @@ public class Common extends Driver
 	{
 		Appliances.ClickOnAppliances().click();
 	}
-	
 	
 	
 }
