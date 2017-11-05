@@ -1,6 +1,7 @@
 package Common;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import Pages.Appliances;
 import Pages.Electronics;
 import Pages.Home;
 
@@ -92,7 +93,10 @@ public class Common extends Driver
 	{
 		Electronics.ClickOnHonor9i().click();
 	}
-	
+	public static void ClickOnAppliances() 
+	{
+		Appliances.ClickOnAppliances().click();
+	}
 	
 	
 	
